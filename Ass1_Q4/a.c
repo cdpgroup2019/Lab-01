@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-int x;
+
+
+int x;  
 int y=5;
 void fun();
 
