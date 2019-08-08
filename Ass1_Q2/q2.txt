@@ -1,0 +1,16 @@
+Bridge(both vm) -->
+				VM1 Ip : 192.168.43.140
+				VM2 Ip : 192.168.43.92
+				Ping from VM1 to VM2 : Yes
+				Ping from VM2 to VM1 : Yes
+
+NAT  (both vm)  -->
+				VM1 Ip : 10.0.2.15
+				VM2 Ip : 10.0.2.15
+				
+VM2:NAT , VM1 : bridge
+				VM1 ip:192.168.43.140
+				vm2 ip:10.0.2.15
+				ping from vm2 to vm1: Yes
+				ping from vm1 to vm2: No
+				
